@@ -12,7 +12,6 @@ st.set_page_config(layout="wide")
 st.markdown("<h1 style='text-align: center; color:#295E61 ;'>Stock Price Direction Prediction</h1>",
             unsafe_allow_html=True)
 
-st.title("Stock Price Direction Prediction")
 
 st.write("""
 This Web App uses the KNearest Neighbor Repressor Algorithm from Sklearn to predict the direction of the chosen 
