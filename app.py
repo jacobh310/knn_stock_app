@@ -84,6 +84,8 @@ def plot_pl( model_gain, inv_gain):
     layout = go.Layout(title= 'Returns',
                        yaxis_title='Gain ($)',
                        margin=go.layout.Margin(b=0),
+                       width=600,
+                       height=400
                        )
 
 
@@ -110,7 +112,7 @@ def plot_candle_sticks(days):
                              name='150 Day Moving Average'))
 
     fig.layout.update(title=f'{ticker} Stock Price Chart for the past {days} days', yaxis_title="Stock Price ($)",
-                      width=920, height=650)
+                      width=720, height=500)
 
     col2.plotly_chart(fig)
 
