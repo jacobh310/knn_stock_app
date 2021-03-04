@@ -1,7 +1,7 @@
 # Machine Learning Stock Prediction Wep App
 ---
 This web app uses the KNearest Neighbor Regressor to make predictions on the direction of the stock price  
-##Requirements
+## Requirements
 - pandas
 - numpy
 - streamlit-nightly
